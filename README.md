@@ -70,7 +70,7 @@ The default admin email/password combination is: `admin@localhost/1234`.
 
 ## Bioinformatics environment
 
-To run bioinformatics tools the environment that the jobs are run in needs to be set up appropriately. The instructions makes use of [bioconda][bioconda] to install tools into the current environment. Make sure that you have enabled [bioconda][bioconda] prior to running the following:
+To run bioinformatics tools, the environment in which the jobs are run needs to be set up appropriately. The instructions make use of [bioconda][bioconda] to install tools into the current environment. Make sure that you have enabled [bioconda][bioconda] prior to running the following, and also that you have the server from Step 4 (above) running:
 
     # Activate the environment.
     source activate engine
